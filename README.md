@@ -1,2 +1,0 @@
-# LinguageProX-
-LinguageProX by linuss
