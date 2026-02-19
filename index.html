@@ -17,25 +17,25 @@
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
     
-    <!-- Favicon emoji (îmbunătățire cerută) -->
+    <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗣️</text></svg>">
 </head>
 <body>
 
     <!-- Header -->
     <header class="header">
-        <div class="header__container container">
+        <div class="container header__container">
             <div class="header__logo">
                 <span class="header__logo-main">LinguageProX</span>
                 <span class="header__logo-sub">by Linuss</span>
             </div>
             <nav>
                 <ul class="nav__list">
-                    <li><a href="#servicii" class="nav__link">Servicii</a></li>
-                    <li><a href="#limbi" class="nav__link">Limbi</a></li>
-                    <li><a href="#despre" class="nav__link">Despre Mine</a></li>
-                    <li><a href="#preturi" class="nav__link">Prețuri</a></li>
-                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                    <li><a href="#servicii">Servicii</a></li>
+                    <li><a href="#limbi">Limbi</a></li>
+                    <li><a href="#despre">Despre Mine</a></li>
+                    <li><a href="#preturi">Prețuri</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <a href="https://wa.me/393508718300" class="btn btn--whatsapp" target="_blank">
@@ -49,7 +49,6 @@
     <section class="hero">
         <div class="container">
             <div class="hero__grid">
-                <!-- Left -->
                 <div>
                     <div class="hero__badge-wrapper">
                         <div class="hero__badge">Traducător Autorizat MJ</div>
@@ -59,315 +58,118 @@
                     <h1 class="hero__title">Traduceri Profesionale în <span class="hero__title-highlight">10 Limbi</span></h1>
                     <p class="hero__subtitle">Servicii complete de traducere și interpretare pentru afaceri, documente juridice, medicale și tehnice. Calitate garantată și livrare rapidă.</p>
                     <div class="hero__cta">
-                        <a href="#preturi" class="btn btn--primary">
-                            <i class="fas fa-eye"></i> Vezi Prețurile
-                        </a>
-                        <a href="https://wa.me/393508718300" class="btn btn--outline" target="_blank">
-                            <i class="fab fa-whatsapp"></i> Trimite Document
-                        </a>
+                        <a href="#preturi" class="btn btn--primary">Vezi Prețurile</a>
+                        <a href="https://wa.me/393508718300" class="btn btn--outline" target="_blank">Trimite Document</a>
                     </div>
                 </div>
-                <!-- Right -->
                 <div class="hero__visual">
-                    <div class="hero__image-wrapper">
-                        <img src="poza-mea.jpg" alt="Traducător la birou" class="hero__image">
-                    </div>
+                    <img src="poza-mea.jpg" alt="Linuss la birou" class="hero__image">
                     <div class="hero__floating-card hero__floating-card--top">
-                        <i class="fas fa-users"></i>
-                        500+ Clienți
+                        <i class="fas fa-users"></i> 500+ Clienți
                     </div>
                     <div class="hero__floating-card hero__floating-card--bottom">
-                        <i class="fas fa-clock"></i>
-                        Livrare 12-48h
+                        <i class="fas fa-clock"></i> Livrare 12-48h
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- TRUST BAR -->
+    <!-- Trust Bar -->
     <section class="trust-bar">
-        <div class="container">
-            <div class="trust-bar__grid">
-                <div class="trust-bar__item">
-                    <div class="trust-bar__icon"><i class="fas fa-shield-alt"></i></div>
-                    <div class="trust-bar__content">
-                        <div class="trust-bar__number">100%</div>
-                        <div class="trust-bar__label">Confidențialitate</div>
-                    </div>
-                </div>
-                <div class="trust-bar__item">
-                    <div class="trust-bar__icon"><i class="fas fa-certificate"></i></div>
-                    <div class="trust-bar__content">
-                        <div class="trust-bar__number">Autorizat</div>
-                        <div class="trust-bar__label">MJ</div>
-                    </div>
-                </div>
-                <div class="trust-bar__item">
-                    <div class="trust-bar__icon"><i class="fas fa-bolt"></i></div>
-                    <div class="trust-bar__content">
-                        <div class="trust-bar__number">12-48h</div>
-                        <div class="trust-bar__label">Livrare Rapidă</div>
-                    </div>
-                </div>
-                <div class="trust-bar__item">
-                    <div class="trust-bar__icon"><i class="fas fa-headset"></i></div>
-                    <div class="trust-bar__content">
-                        <div class="trust-bar__number">24/7</div>
-                        <div class="trust-bar__label">Disponibil Direct</div>
-                    </div>
-                </div>
+        <div class="container trust-bar__grid">
+            <div class="trust-bar__item">
+                <div class="trust-bar__icon"><i class="fas fa-shield-alt"></i></div>
+                <div>Confidențialitate 100%</div>
+            </div>
+            <div class="trust-bar__item">
+                <div class="trust-bar__icon"><i class="fas fa-certificate"></i></div>
+                <div>Autorizat MJ</div>
+            </div>
+            <div class="trust-bar__item">
+                <div class="trust-bar__icon"><i class="fas fa-bolt"></i></div>
+                <div>Livrare 12-48h</div>
             </div>
         </div>
     </section>
 
-    <!-- LANGUAGES -->
-    <section class="languages" id="limbi">
+    <!-- Limbi -->
+    <section id="limbi">
         <div class="container">
-            <div class="section-header">
-                <span class="section-header__subtitle">Limbi Disponibile</span>
-                <h2 class="section-header__title">Traduceri Profesionale în <span class="section-header__highlight">10 Limbi Internaționale</span></h2>
-                <p class="section-header__description">Traducător nativ și fluent în toate limbile listate.</p>
-            </div>
-            <div class="languages__grid">
-                <div class="language-card">
-                    <div class="language-card__flag">🇷🇴</div>
-                    <h3 class="language-card__title">Română</h3>
-                    <p class="language-card__desc">Nativ</p>
-                </div>
-                <div class="language-card">
-                    <div class="language-card__flag">🇬🇧</div>
-                    <h3 class="language-card__title">Engleză</h3>
-                    <p class="language-card__desc">C2 - Fluent</p>
-                </div>
-                <div class="language-card">
-                    <div class="language-card__flag">🇫🇷</div>
-                    <h3 class="language-card__title">Franceză</h3>
-                    <p class="language-card__desc">C1 - Avansat</p>
-                </div>
-                <div class="language-card">
-                    <div class="language-card__flag">🇩🇪</div>
-                    <h3 class="language-card__title">Germană</h3>
-                    <p class="language-card__desc">C1 - Avansat</p>
-                </div>
-                <div class="language-card">
-                    <div class="language-card__flag">🇪🇸</div>
-                    <h3 class="language-card__title">Spaniolă</h3>
-                    <p class="language-card__desc">B2 - Intermediar</p>
-                </div>
-                <div class="language-card">
-                    <div class="language-card__flag">🇮🇹</div>
-                    <h3 class="language-card__title">Italiană</h3>
-                    <p class="language-card__desc">C1 - Avansat</p>
-                </div>
-                <div class="language-card">
-                    <div class="language-card__flag">🇳🇱</div>
-                    <h3 class="language-card__title">Olandeză</h3>
-                    <p class="language-card__desc">B2 - Intermediar</p>
-                </div>
-                <div class="language-card">
-                    <div class="language-card__flag">🇨🇳</div>
-                    <h3 class="language-card__title">Chineză</h3>
-                    <p class="language-card__desc">B1 - Intermediar</p>
-                </div>
+            <h2>Limbi Disponibile</h2>
+            <div class="grid">
+                <div class="card"><div class="flag">🇷🇴</div><h3>Română</h3><p>Nativ</p></div>
+                <div class="card"><div class="flag">🇬🇧</div><h3>Engleză</h3><p>C2 - Fluent</p></div>
+                <div class="card"><div class="flag">🇫🇷</div><h3>Franceză</h3><p>C1 - Avansat</p></div>
+                <div class="card"><div class="flag">🇩🇪</div><h3>Germană</h3><p>C1 - Avansat</p></div>
+                <div class="card"><div class="flag">🇪🇸</div><h3>Spaniolă</h3><p>B2 - Intermediar</p></div>
+                <div class="card"><div class="flag">🇮🇹</div><h3>Italiană</h3><p>C1 - Avansat</p></div>
+                <div class="card"><div class="flag">🇳🇱</div><h3>Olandeză</h3><p>B2 - Intermediar</p></div>
+                <div class="card"><div class="flag">🇨🇳</div><h3>Chineză</h3><p>B1 - Intermediar</p></div>
             </div>
         </div>
     </section>
 
-    <!-- SERVICES -->
-    <section class="services" id="servicii">
+    <!-- Despre Mine -->
+    <section id="despre">
         <div class="container">
-            <div class="section-header">
-                <span class="section-header__subtitle">Ce Ofer</span>
-                <h2 class="section-header__title">Servicii de <span class="section-header__highlight">Traducere & Interpretare</span></h2>
-            </div>
-            <div class="services__grid">
-                <div class="service-card">
-                    <div class="service-card__icon"><i class="fas fa-gavel"></i></div>
-                    <h3 class="service-card__title">Traduceri Juridice</h3>
-                    <p class="service-card__desc">Contracte, acte notariale, documente oficiale. Autorizat MJ.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-card__icon"><i class="fas fa-heartbeat"></i></div>
-                    <h3 class="service-card__title">Traduceri Medicale</h3>
-                    <p class="service-card__desc">Fișe medicale, analize, rețete. Terminologie precisă.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-card__icon"><i class="fas fa-laptop"></i></div>
-                    <h3 class="service-card__title">Traduceri Tehnice</h3>
-                    <p class="service-card__desc">Manualuri, specificații, site-uri web. Precizie tehnică.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-card__icon"><i class="fas fa-comments"></i></div>
-                    <h3 class="service-card__title">Interpretare</h3>
-                    <p class="service-card__desc">Conferințe, întâlniri, video-call. Simultane sau consecutive.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="about" id="despre">
-        <div class="container">
+            <h2>Despre Mine</h2>
             <div class="about__grid">
-                <div class="about__visual">
-                    <div class="about__image-wrapper">
-                        <img src="poza-mea.jpg" alt="Linuss - Traducător" class="about__image">
-                    </div>
-                    <div class="about__badge">
-                        <div class="about__badge-number">5+</div>
-                        <div class="about__badge-text">Ani Experiență</div>
-                    </div>
-                </div>
+                <img src="poza-mea.jpg" alt="Linuss">
                 <div>
-                    <span class="about__subtitle">Cine Sunt</span>
-                    <h2 class="about__title">Bună, sunt <span class="about__title-name">Linuss</span></h2>
-                    <div class="about__bio">
-                        <p>Traducător autorizat de Ministerul Justiției cu peste 5 ani de experiență în domenii complexe. Specializat în traduceri precise și rapide pentru clienți din business, medicină și tehnologie.</p>
-                        <p>Calitate este prioritatea mea: fiecare document este revizuit de 2 ori înainte de livrare.</p>
-                        <p style="color: #ef4444; font-weight: bold;">Important: Nu legalizez acte sau traduceri. Ofer doar traduceri autorizate fără servicii de legalizare, apostilare sau supralegalizare.</p>
-                    </div>
-                    <div class="about__features">
-                        <div class="about__feature">
-                            <i class="fas fa-check about__feature-icon"></i>
-                            Autorizat MJ
-                        </div>
-                        <div class="about__feature">
-                            <i class="fas fa-check about__feature-icon"></i>
-                            Livrare express
-                        </div>
-                        <div class="about__feature">
-                            <i class="fas fa-check about__feature-icon"></i>
-                            Suport 24/7
-                        </div>
-                        <div class="about__feature">
-                            <i class="fas fa-check about__feature-icon"></i>
-                            Confidențial 100%
-                        </div>
-                    </div>
-                    <div class="about__note">
-                        <i class="fas fa-star"></i>
-                        "Cel mai bun traducător cu care am lucrat!" – Client Corporate
+                    <p>Traducător autorizat MJ cu +5 ani experiență. Specializat în traduceri juridice, medicale și tehnice.</p>
+                    <p style="color:#d32f2f; font-weight:bold;">Important: Nu ofer servicii de legalizare, apostilare sau supralegalizare a documentelor. Doar traduceri autorizate MJ.</p>
+                    <div style="margin-top:1rem;">
+                        <strong>Plata în avans prin:</strong><br>
+                        • PayPal: linuss1928@gmail.com<br>
+                        • Transfer bancar (IBAN la cerere)
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- PRICING -->
-    <section class="pricing" id="preturi">
+    <!-- Prețuri -->
+    <section id="preturi">
         <div class="container">
-            <div class="section-header">
-                <span class="section-header__subtitle">Prețuri Transparente</span>
-                <h2 class="section-header__title">Alege Pachetul Potrivit</h2>
-            </div>
-            <div class="pricing__grid">
-                <div class="pricing-card">
-                    <h3 class="pricing-card__title">Basic</h3>
-                    <p class="pricing-card__subtitle">Pentru documente simple</p>
-                    <div class="pricing-card__price">0,08<span>€/cuvânt</span></div>
-                    <p class="pricing-card__note">Min. 500 cuvinte</p>
-                    <ul class="pricing-card__list">
-                        <li class="pricing-card__feature"><i class="fas fa-check"></i> Traducere standard</li>
-                        <li class="pricing-card__feature"><i class="fas fa-check"></i> Livrare 48h</li>
-                        <li class="pricing-card__feature"><i class="fas fa-check"></i> Revizuire 1x</li>
-                    </ul>
-                    <a href="https://wa.me/393508718300" class="btn btn--price">Alege Basic</a>
+            <h2>Prețuri</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Basic</h3>
+                    <div class="price">0,08 € / cuvânt</div>
+                    <a href="https://wa.me/393508718300" class="btn btn-primary">Alege</a>
                 </div>
-                <div class="pricing-card pricing-card--featured">
-                    <div class="pricing-card__badge">RECOMANDAT</div>
-                    <h3 class="pricing-card__title">Standard</h3>
-                    <p class="pricing-card__subtitle">Cel mai popular</p>
-                    <div class="pricing-card__price">0,12<span>€/cuvânt</span></div>
-                    <p class="pricing-card__note">Min. 300 cuvinte</p>
-                    <ul class="pricing-card__list">
-                        <li class="pricing-card__feature"><i class="fas fa-check"></i> Traducere + revizuire</li>
-                        <li class="pricing-card__feature"><i class="fas fa-check"></i> Livrare 24h</li>
-                        <li class="pricing-card__feature"><i class="fas fa-check"></i> Format editabil</li>
-                        <li class="pricing-card__feature"><i class="fas fa-check"></i> Suport prioritar</li>
-                    </ul>
-                    <a href="https://wa.me/393508718300" class="btn btn--price btn--price-featured">Alege Standard</a>
+                <div class="card">
+                    <h3>Standard</h3>
+                    <div class="price">0,12 € / cuvânt</div>
+                    <a href="https://wa.me/393508718300" class="btn btn-primary">Alege</a>
                 </div>
-                <div class="pricing-card">
-                    <h3 class="pricing-card__title">Premium</h3>
-                    <p class="pricing-card__subtitle">Pentru urgențe</p>
-                    <div class="pricing-card__price">0,18<span>€/cuvânt</span></div>
-                    <p class="pricing-card__note">Min. 200 cuvinte</p>
-                    <ul class="pricing-card__list">
-                        <li class="pricing-card__feature"><i class="fas fa-check"></i> Traducere express</li>
-                        <li class="pricing-card__feature"><i class="fas fa-check"></i> Livrare 12h</li>
-                        <li class="pricing-card__feature"><i class="fas fa-check"></i> 2 revizuiri</li>
-                        <li class="pricing-card__feature"><i class="fas fa-check"></i> Certificare</li>
-                    </ul>
-                    <a href="https://wa.me/393508718300" class="btn btn--price">Alege Premium</a>
+                <div class="card">
+                    <h3>Premium</h3>
+                    <div class="price">0,18 € / cuvânt</div>
+                    <a href="https://wa.me/393508718300" class="btn btn-primary">Alege</a>
                 </div>
-            </div>
-            <div class="pricing__footer">
-                <h4>Toate prețurile includ TVA</h4>
-                <p>Prețuri orientative. Contactează-mă pentru o ofertă personalizată!</p>
-            </div>
-            <div style="text-align:center; margin-top:2rem; font-size:0.95rem; color:var(--gray);">
-                <strong>Modalități de plată (în avans):</strong><br>
-                • PayPal: linuss1928@gmail.com<br>
-                • Transfer bancar (detalii IBAN la cerere, după confirmare)
             </div>
         </div>
     </section>
 
-    <!-- CONTACT -->
-    <section class="contact" id="contact">
+    <!-- Contact -->
+    <section id="contact">
         <div class="container">
-            <div class="section-header">
-                <span class="section-header__subtitle">Să Lucrăm Împreună</span>
-                <h2 class="section-header__title">Contactează-mă Acum</h2>
-            </div>
-            <div class="contact__grid">
-                <div>
-                    <div class="contact__card">
-                        <div class="contact__item">
-                            <div class="contact__icon"><i class="fas fa-phone"></i></div>
-                            <div class="contact__details">
-                                <h4>Telefon</h4>
-                                <p>+39 350 871 8300</p>
-                                <span>Luni - Vineri, 9:00 - 18:00</span>
-                            </div>
-                        </div>
-                        <div class="contact__item">
-                            <div class="contact__icon contact__icon--whatsapp"><i class="fab fa-whatsapp"></i></div>
-                            <div class="contact__details">
-                                <h4>WhatsApp</h4>
-                                <a href="https://wa.me/393508718300" target="_blank">Scrie-mi acum</a>
-                                <span>Răspuns în < 5 min</span>
-                            </div>
-                        </div>
-                        <div class="contact__item">
-                            <div class="contact__icon"><i class="fas fa-envelope"></i></div>
-                            <div class="contact__details">
-                                <h4>Email</h4>
-                                <p>linuss1928@gmail.com</p>
-                                <span>Răspuns în 24h</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <form action="https://formspree.io/f/xbdaydev" method="POST" class="contact__card">
-                        <input type="text" name="name" placeholder="Numele tău" required>
-                        <input type="email" name="email" placeholder="Email" required>
-                        <textarea name="message" placeholder="Descrie documentul tău (ex: contract de 1200 cuvinte, engleză-română)" rows="5" required></textarea>
-                        <button type="submit" class="btn btn--submit">Trimite Cerere <i class="fas fa-arrow-right"></i></button>
-                    </form>
-                </div>
-            </div>
+            <h2>Contactează-mă</h2>
+            <form action="https://formspree.io/f/xbdaydev" method="POST">
+                <input type="text" name="name" placeholder="Nume" required>
+                <input type="email" name="_replyto" value="linuss1928@gmail.com" placeholder="Email" required>
+                <textarea name="message" placeholder="Mesaj..." rows="5" required></textarea>
+                <button type="submit">Trimite</button>
+            </form>
         </div>
     </section>
 
-    <script>
-        function toggleMobileMenu() {
-            const nav = document.querySelector('.nav__list');
-            nav.classList.toggle('active');
-        }
-    </script>
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/393508718300" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
 
 </body>
 </html>
