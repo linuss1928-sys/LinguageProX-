@@ -6,20 +6,18 @@
     <meta name="description" content="Traducător autorizat MJ cu +5 ani experiență. Traduceri juridice, medicale, tehnice în 10 limbi. Livrare 12-48h. Contact direct WhatsApp.">
     <title>LinguageProX by Linuss | Traduceri Profesionale în 10 Limbi</title>
     
-    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    
-    <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
     
-    <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗣️</text></svg>">
 </head>
 <body>
 
 <header class="header">
-  <div class="container header-inner">
+  <div class="container">
     <div class="logo">LinguageProX <span>by Linuss</span></div>
     <nav>
       <ul>
@@ -92,7 +90,7 @@
       <img src="poza-mea.jpg" alt="Linuss" class="about-image">
       <div>
         <p>Traducător autorizat MJ cu peste 5 ani experiență. Specializat în traduceri juridice, medicale și tehnice.</p>
-        <p style="color:#d32f2f; font-weight:bold;">Important: Nu ofer servicii de legalizare, apostilare sau supralegalizare. Doar traduceri autorizate MJ.</p>
+        <p style="color:#d32f2f; font-weight:bold;">Important: Nu ofer servicii de legalizare, apostilare sau supralegalizare a documentelor. Doar traduceri autorizate MJ.</p>
         <p style="margin-top:1.5rem;">
           <strong>Plata în avans prin:</strong><br>
           • PayPal: linuss1928@gmail.com<br>
@@ -112,8 +110,8 @@
         <div class="price">0,08 € <small>/ cuvânt</small></div>
         <a href="https://wa.me/393508718300" class="btn btn-primary">Alege Basic</a>
       </div>
-      <div class="pricing-card">
-        <h3>Standard <small>(Recomandat)</small></h3>
+      <div class="pricing-card featured">
+        <h3>Standard</h3>
         <div class="price">0,12 € <small>/ cuvânt</small></div>
         <a href="https://wa.me/393508718300" class="btn btn-primary">Alege Standard</a>
       </div>
@@ -132,7 +130,7 @@
     <div class="contact-grid">
       <div>
         <div class="contact-item">
-          <i class="fas fa-whatsapp"></i>
+          <i class="fab fa-whatsapp"></i>
           <div>
             <h4>WhatsApp</h4>
             <a href="https://wa.me/393508718300" target="_blank">+39 350 871 8300</a>
@@ -149,6 +147,7 @@
       <form action="https://formspree.io/f/xbdaydev" method="POST">
         <input type="text" name="name" placeholder="Numele tău" required>
         <input type="email" name="_replyto" value="linuss1928@gmail.com" placeholder="Email" required>
+        <input type="hidden" name="_subject" value="Cerere traducere de pe site">
         <textarea name="message" placeholder="Descrie documentul..." rows="5" required></textarea>
         <button type="submit">Trimite Cerere</button>
       </form>
